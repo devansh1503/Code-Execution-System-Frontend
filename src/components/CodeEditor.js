@@ -57,9 +57,9 @@ function CodeEditor({setFetchResult, setJobId}) {
                 automaticLayout: true,
             }}
         />
-        <input placeholder='Input Data' onChange={(event)=>{
+        <textarea placeholder='Input Data' onChange={(event)=>{
             setInput(event.target.value);
-        }}></input>
+        }}></textarea>
         <button onClick={submit}>Submit</button>
     </div>
   )
